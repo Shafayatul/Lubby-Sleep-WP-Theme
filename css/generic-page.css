@@ -1,0 +1,62 @@
+body {
+ 
+}
+  ul.nav-pills {
+  	position: fixed;
+    top: 18%;
+   z-index: 2000;
+  }
+.inset li{
+  list-style: inside;
+}
+ .nav-pills .nav-item:last-child{
+ 	margin-bottom: 0px !important;
+ }
+ .nav-pills .nav-item:first-child {
+    position: relative;
+    left: auto;
+}
+
+
+  div.col-8 div {
+    
+  }
+  .scrollspy {
+    position: relative;
+   top: 80px;
+   width: 100%;
+   height: auto;
+   margin-bottom: 78px;
+   
+}
+ .scrollspy .section{
+	width: 100%;
+	display: block;
+	margin-bottom: 2%;
+	padding: 10px 10px;
+	color: #212529;
+	
+}
+  .visit-box-img img{
+  	width: 100%;
+  }
+  .generic-banner{
+    background: url('../img/generic.jpg');    
+    background-position: center center;
+    background-repeat: no-repeat;
+   background-size: cover;
+    width: 100%;
+    height: 50vh;
+    display: inline-block;
+  }
+  /* .call-section{
+    padding: 100px 0px 60px 0px;
+  } */
+  .call{
+
+  }
+  .call img{    
+  vertical-align: middle;
+  max-width: 100%;
+}
+  

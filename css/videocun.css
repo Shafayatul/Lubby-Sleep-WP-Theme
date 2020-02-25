@@ -1,0 +1,196 @@
+.video-banner {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-banner video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-banner .container {
+  position: relative;
+  z-index: 2;
+}
+
+.video-banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+
+
+
+.appointment-section {
+    padding: 100px 0 0;
+    background: url(../img/pttrns.png);
+    background-repeat: repeat;
+    background-repeat: repeat;
+    overflow: hidden;
+}
+.appointment-col {
+    margin-bottom: 30px;
+}
+.appointment-col .form-control {
+    border: 1px solid 
+rgba(204, 204, 204, 0.7);
+background:
+    rgba(255, 255, 255, 0.5);
+}
+.form-control {
+    resize: none;
+    height: 40px;
+    margin-bottom: 30px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+.body-pre{
+	color: #333333;
+}
+.my-btn {
+    background:#D1242B;
+    color:#ffffff;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px 25px;
+    border-radius: 0;
+    border: none;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.therapists-single-section {
+    position: relative;
+    padding: 50px 0px 75px;
+}
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.therapists-single-section .content-column {
+    position: relative;
+}
+.therapists-single-section .content-column h2 {
+    position: relative;
+    color: 
+    #242424;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-top: 18px;
+}
+.therapists-single-section .content-column .title {
+    position: relative;
+    color:#797979;
+    font-size: 17px;
+    font-style: italic;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.therapists-single-section .content-column .title::after {
+    position: absolute;
+    content: '';
+    left: 110%;
+    height: 2px;
+    width: 50px;
+    bottom: 4px;
+    background-color:#D1242B;
+}
+.therapists-single-section .content-column h3 {
+    position: relative;
+    color: 
+    #242424;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.therapists-single-section  .professional::after {
+    position: absolute;
+    content: '';
+    left: 105%;
+    bottom: 10px;
+    height: 3px;
+    width: 50px;
+    line-height: 1.2em;
+     background-color:#D1242B;
+
+ }
+ .year-block {
+    position: relative;
+    margin-bottom: 28px;
+}
+ .year-block .inner-box {
+    position: relative;
+    padding-left: 110px;
+} 
+ .year-block .inner-box .year {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   color: #D1242B;
+    font-size: 34px;
+    font-weight: 700;
+}
+.year-block .inner-box h4 {
+    position: relative;
+    color: 
+    #242424;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin-bottom: 12px;
+}
+.year-block .inner-box .year-text {
+    position: relative;
+    color: 
+    #797979;
+    font-size: 17px;
+    line-height: 1.7em;
+}
+.therapists-single-section .image-column .inner-column {
+    position: relative;
+    padding-right: 70px;
+}
+.therapists-single-section .image-column .image {
+    position: relative;
+    margin-bottom: 50px;
+} 
+.therapists-single-section .image-column .image img {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-top: 18px;
+} 
