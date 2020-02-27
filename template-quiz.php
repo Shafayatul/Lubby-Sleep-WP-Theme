@@ -157,7 +157,7 @@ include(TEMPLATEPATH.'/header-generic.php');?>
                                         <label class="custom-control-label" for="customRadio17">Yes</label>
                                      </div>
                                      <div class="custom-control custom-radio">
-                                      <input type="radio" id="customRadio18" name="customRadio9" value="0" class="custom-control-input custom-control-input-1">
+                                      <input type="radio" id="customRadio18" name="customRadio9" value="1" class="custom-control-input custom-control-input-1">
                                      <label class="custom-control-label" for="customRadio18">No</label>
                                       </div>     
                                     </div>
@@ -218,7 +218,7 @@ include(TEMPLATEPATH.'/header-generic.php');?>
                                         <label class="custom-control-label" for="custom7">Less than 5 hours</label>
                                      </div>
                                      <div class="custom-control custom-radio">
-                                          <input type="radio" id="customRadi8" name="custome" value="0" class="custom-control-input custom-control-input-2">
+                                          <input type="radio" id="customRadi8" name="custome" value="1" class="custom-control-input custom-control-input-2">
                                          <label class="custom-control-label" for="customRadi8">5-7 hours</label>
                                       </div>
                                        <div class="custom-control custom-radio">

@@ -22,15 +22,15 @@ include(TEMPLATEPATH.'/header-generic.php');?>
     </div>
 </div>
 
-
 <div id="wrapper">
 
     <div class="myPlayer-content container">	
-         <h4 class="myPlayer-content-top-heading">It is important to remember that a sleep study can help eliminate or illuminate problems or issues in your sleep.
+         <h4 class="myPlayer-content-top-heading">It is important to remember that a sleep test can help eliminate or illuminate problems or issues in your sleep.
          Both outcomes are positive.</h4>
-
          <div class="myPlayer-content-bottom">
-         	  <h2>What happens in a sleep study?</h2>
+         				 </div>
+<h2>What happens in a sleep test?</h2>
+			 
           
 
 </div>
@@ -111,7 +111,7 @@ include(TEMPLATEPATH.'/header-generic.php');?>
 						  	</span>		  		
 						  </div>
 						  <div class="video-icon-title">
-						  	<h3 >Initial consultation with one of our Sleep Technicians</h3>
+						  	<h3 >Initial consultation with one of our Sleep Physicians</h3>
 						  </div>
 						 </div>
 					</div>
@@ -341,7 +341,7 @@ include(TEMPLATEPATH.'/header-generic.php');?>
 	                                            		<li class="reasons-line"><i class="fas fa-check-circle"></i> You Come First – If You Agree, where possible we use Video Conferencing to minimise travel and time disruptions to your day.</li>
 	                                                	</ul>
 	                                                </div>
-	                                                <a href="contact.html" class="theme-btn btn-style-six">Make Appointment</a>
+	                                                <a href="/contact-us" class="theme-btn btn-style-six">Make Appointment</a>
 	                                            </div>
 	                                        </div>
 	                                    </div>

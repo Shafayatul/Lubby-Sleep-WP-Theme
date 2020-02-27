@@ -32,49 +32,54 @@
 		    <div class="container py-5">
 		        <div class="row py-3">
 		            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 footer-container">
-		                <h6 class="text-uppercase font-weight-bold mb-4">Problems</h6>
+		                <h6 class="text-uppercase font-weight-bold mb-4">Problems & Solutions</h6>
 		                <ul class="list-unstyled mb-0">
-		                    <li class="mb-2"><a href="<?php echo site_url('/snoring');?>" class="text-muted">Snoring</a></li>
+   		                    <li class="mb-2"><a href="<?php echo site_url('/tiredness');?>" class="text-muted">Tiredness & Fatigue</a></li>
+							<li class="mb-2"><a href="<?php echo site_url('/snoring');?>" class="text-muted">Snoring</a></li>
 		                    <li class="mb-2"><a href="<?php echo site_url('/sleep-apnea');?>" class="text-muted">Sleep Apnea</a></li>
 		                    <li class="mb-2"><a href="<?php echo site_url('/insomnia');?>" class="text-muted">Insomnia</a></li>
+							<li class="mb-2"><a href="<?php echo site_url('/restless-legs');?>" class="text-muted">Restless Legs</a></li>
+							<li class="mb-2"><a href="<?php echo site_url('/more-sleep-problems');?>" class="text-muted">More Sleep Problems</a></li>
 		                   <!--  <li class="mb-2"><a href="#" class="text-muted">Press</a></li> -->
 		                </ul>
 		            </div>
 		            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 footer-container">
-		                <h6 class="text-uppercase font-weight-bold mb-4">Solutions</h6>
+		                <h6 class="text-uppercase font-weight-bold mb-4">Services</h6>
 		                <ul class="list-unstyled mb-0">
-		                    <li class="mb-2"><a href="<?php echo site_url('/book-appointment');?>"  class="text-muted">Video Consulting</a></li>
-		                    <li class="mb-2"><a href="<?php echo site_url('/mas-dental-device');?>" class="text-muted">Dental Devices</a></li>
-		                    <li class="mb-2"><a href="<?php echo site_url('/cpap-services');?>" class="text-muted">CPAP</a></li>
-		                    <li class="mb-2"><a href="<?php echo site_url('/sleep-testing');?>" class="text-muted">Take a Sleep Test</a></li>
+		                    <li class="mb-2"><a href="<?php echo site_url('/sleep-testing');?>"  class="text-muted">Sleep Testing</a></li>
+		                    <li class="mb-2"><a href="<?php echo site_url('/sleep-physician-consults');?>" class="text-muted">Sleep Physician Consults</a></li>
+		                    <li class="mb-2"><a href="<?php echo site_url('/cpap-services');?>" class="text-muted">CPAP Services</a></li>
+		                    <li class="mb-2"><a href="<?php echo site_url('/driver-sleep-assessments');?>" class="text-muted">Driver Sleep Assessments</a></li>
+							<li class="mb-2"><a href="<?php echo site_url('/corporate-executive-health');?>" class="text-muted">Corporate Sleep Health</a></li>
+							<li class="mb-2"><a href="<?php echo site_url('/mas-dental-device');?>" class="text-muted">Dental Device Checks</a></li>
 		                </ul>
 		            </div>
 		            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 footer-container">
-		                <h6 class="text-uppercase font-weight-bold mb-4">About Us</h6>
+		                <h6 class="text-uppercase font-weight-bold mb-4">Resources & About Us</h6>
 		                <ul class="list-unstyled mb-0">
-		                    <li class="mb-2"><a href="<?php echo site_url('/our-team');?>" class="text-muted">Meet Our Team</a></li>
-		                    <li class="mb-2"><a href="<?php echo site_url('/faq');?>" class="text-muted">FAQ</a></li>
-		                    <li class="mb-2"><a href="<?php echo site_url('/privacy-policy');?>" class="text-muted">Privacy Policy</a></li>privacy-policy
-		                    <li class="mb-2"><a href="<?php echo site_url('/for-doctors');?>" class="text-muted">For Doctors</a></li>
-		                    <li class="mb-2"><a href="#" class="text-muted">Download Referral Forml</a>
-		                    </li>
-		                </ul>
+		                    <li class="mb-2"><a href="<?php echo site_url('/our-team');?>" class="text-muted">Our Team</a></li>
+							<li class="mb-2"><a href="<?php echo site_url('/dr-dev-banerjee');?>" class="text-muted">Dr Dev Banerjee</a></li>
+							<li class="mb-2"><a href="<?php echo site_url('/media-2');?>" class="text-muted">Media</a></li>
+		                    <li class="mb-2"><a href="<?php echo site_url('/privacy-policy');?>" class="text-muted">Privacy Policy</a></li>
+		                    <li class="mb-2"><a href="<?php echo site_url('/info-for-doctors');?>" class="text-muted">Info For Doctors</a></li>
+							<li class="mb-2"><a href="<?php echo site_url('/referrals');?>" class="text-muted">Referral Form</a></li>
+		                    </ul>
 		            </div>
 		            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 footer-container">
 		                <h6 class="text-uppercase font-weight-bold mb-4">Contact Us</h6>
 		                <ul class="list-unstyled mb-0">
-		                    <li class="mb-2"><a href="<?php echo site_url('/sleep-physician-consults');?>" class="text-muted">Consult Form</a></li>
-		                    <li class="mb-2"><a href="<?php echo site_url('/sydney');?>" class="text-muted">Sydney</a></li>
-		                    <li class="mb-2"><a href="<?php echo site_url('/central-coast-erina-fair');?>" class="text-muted">Central Coast - Erina Fair</a></li>
-		                    <li class="mb-2"><a href="<?php echo site_url('/wp-admin');?>" class="text-muted">Staff Login</a></li>
+		                    <li class="mb-2"><a href="<?php echo site_url('/book-appointment');?>" class="text-muted">Book Sleep Test</a></li>
+							<li class="mb-2"><a href="<?php echo site_url('/contact-us');?>" class="text-muted">Book Appointment</a></li>
+		                    <li class="mb-2"><a href="<?php echo site_url('/contact-us');?>" class="text-muted">Contact Us</a></li>
+		                    <li class="mb-2"><a href="<?php echo site_url('/contact-us');?>" class="text-muted">Locations</a></li>
 		                </ul>
 		            </div>
 		            <div class="col-lg-4 col-md-6 mb-lg-0 footer-container-one">
-		                <h6 class="text-uppercase font-weight-bold mb-4"> Office Address</h6>
-		                <p class="text-muted mb-4">Lullaby Sleep Pty.Ltd. COM2, Erina Fair Shopping Centre, Terrigal Drive, Erina NSW 2250 </p>
+		                <h6 class="text-uppercase font-weight-bold mb-4"> Head Office</h6>
+		                <p class="text-muted mb-4">Lullaby Sleep P/L, COM2, Erina Fair Shopping Centre, Terrigal Drive, Erina NSW Australia 2250 </p>
 		                <ul class="list-inline mt-4">
 		                  <li class="list-inline-item facebook"><a href="https://www.facebook.com/LullabySleepAu/" title="facebook"><i  class="fab fa-2x fa-facebook-f"></i></a></li>
-		                   <li class="list-inline-item linkdin"><a href="" title="vimeo"><i class="fab fa-linkedin-in"></i></a></li>	
+		                   <li class="list-inline-item linkdin"><a href="" title="linkdIn"><i class="fab fa-linkedin-in"></i></a></li>	
 		                </ul>
 		            </div>
 		        </div>
@@ -82,7 +87,7 @@
 		    <hr class="p-0 m-0 b-0">
 		    <div class="bg-light py-2">
 		        <div class="container text-center">
-		            <p class="text-muted mb-0 py-2"> LULLABY SLEEP P/L © 2019 All risghts reserved.</p>
+		            <p class="text-muted mb-0 py-2"> LULLABY SLEEP P/L © 2020 All rights reserved.</p>
 		        </div>
 		    </div>
 		</footer>

@@ -56,16 +56,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav menu-center">
-             <li class="nav-item my-dwon in-nav-item active">
-               <a class="nav-link" href="<?php echo site_url();?>">Home | Shop<span class="sr-only">(current)</span></a>
-            </li>           
+             <li class="d-flex nav-item my-dwon in-nav-item active">
+              <a class="nav-link" href="<?php echo site_url();?>">Home |</a>  <a class="nav-link" href="https://shop.lullabysleep.com.au/">Shop</a><span class="sr-only">(current)</span></a>
+			      </li>          
              <li class="nav-item my-dwon ">
                 <a class="nav-link " href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                    Problems & Solutions
                     <i class="fa fa-chevron-down" aria-hidden="true"></i>
                 </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                 <a class="dropdown-item" href="<?php echo site_url('/tiredness');?>">Tiredness</a>
+                 <a class="dropdown-item" href="<?php echo site_url('/tiredness');?>">Tiredness & Fatigue</a>
 	             <a class="dropdown-item" href="<?php echo site_url('/snoring');?>">Snoring</a>    
 	             <a class="dropdown-item" href="<?php echo site_url('/insomnia');?>">Insomnia</a>
 	             <a class="dropdown-item" href="<?php echo site_url('/sleep-apnea');?>">Sleep Apnea</a>
@@ -94,9 +94,8 @@
 	              </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                  <a class="dropdown-item" href="<?php echo site_url('/our-team');?>">Our Team</a>
-	             <a class="dropdown-item" href="<?php echo site_url('/dr-dev-banargee');?>">Dr Dev Banerjee</a>
-	             <a class="dropdown-item" href="<?php echo site_url('/dr-james-di-michiel');?>">Dr James Di Michiel</a>	            
-	             <a class="dropdown-item" href="<?php echo site_url('/dr-levi-media');?>">Media</a>
+	             <a class="dropdown-item" href="<?php echo site_url('/dr-dev-banerjee');?>">Dr Dev Banerjee</a>          
+	             <a class="dropdown-item" href="<?php echo site_url('/media-2');?>">Media</a>
 	           
               </div>
             </li>            
@@ -108,8 +107,9 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                  <a class="dropdown-item" href="<?php echo site_url('/info-for-doctors');?>">Info for Doctors</a>
 	             <a class="dropdown-item" href="<?php echo site_url('/referrals');?>">Referrals</a>
+	             <a class="dropdown-item" href="<?php echo site_url('/fact-sheets');?>">Fact Sheets & Resources</a>
 	             <a class="dropdown-item" href="<?php echo site_url('/faq');?>">FAQ’s</a>
-	             <a class="dropdown-item" href="<?php echo site_url('/quiz');?>">Quiz’s</a>
+	             <a class="dropdown-item" href="<?php echo site_url('/quiz');?>">Self Sleep Quiz</a>
               </div>
             </li>
 
@@ -119,9 +119,10 @@
 	              <i class="fa fa-chevron-down" aria-hidden="true"></i>
 	                </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-	             <a class="dropdown-item" href="<?php echo site_url('/book-a-sleep-test');?>">Book Appointment</a>
-	             <a class="dropdown-item" href="<?php echo site_url('/contact-us-location');?>">Contact us & Locations</a>
-	             <a class="dropdown-item" href="<?php echo site_url('/resources');?>">Resources</a>
+	             <a class="dropdown-item" href="<?php echo site_url('/book-appointment');?>">Book Appointment</a>
+				 <a class="dropdown-item" href="<?php echo site_url('/book-a-sleep-test');?>">Book a Sleep Test</a>
+	             <a class="dropdown-item" href="<?php echo site_url('/contact-us');?>">Contact us</a>
+	             <a class="dropdown-item" href="<?php echo site_url('/contact-us');?>">Locations</a>
               </div>
             </li>
          <!--  </ul>

@@ -23,7 +23,7 @@
                 <div class="header-content">
                     <h5 class="section-title h1"><?php the_title(); ?></h5>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 dynamic-content">
                     <?php the_content(); ?>
                 </div>
             </div>
@@ -41,7 +41,7 @@
     <div class="rightside-sticky-items dextop-view text-center">
         <ul>
             <li>
-                <a href="#">
+                <a href="<?php echo site_url();?>/book-a-sleep-test">
                     <div class="icon-box">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons2.png">
                     </div>
@@ -49,7 +49,7 @@
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="<?php echo site_url('/contact-us');?>">
                     <div class="icon-box">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/askquestion-min.png">
                     </div>
@@ -57,7 +57,7 @@
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="book-a-sleep-test">
                     <div class="icon-box">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/app.png">
                     </div>

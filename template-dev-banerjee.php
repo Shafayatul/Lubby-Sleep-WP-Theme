@@ -10,7 +10,7 @@ include(TEMPLATEPATH.'/header-generic.php');?>
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 50vh;
+    height: 5vh;
     display: inline-block;">
     <div class="container text-center refreshed-container">
       
@@ -21,20 +21,7 @@ include(TEMPLATEPATH.'/header-generic.php');?>
     <section class="therapists-single-section">
     	<div class="auto-container">
             <div class="row clearfix">
-              <div class="col-md-6 dev-img">
-                <div class="dev-div">
-                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/dev.png">
-                 <span class="m-1">Via Video Consulting on computer or Smart Phone </span>
-                </div> 
-              </div>
-               <div class="col-md-6">
-                <div class="dev-div">
-                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/dev2.png" class="dev-img">
-                   <span class="m-1">In person at our Clinics in Sydney & the Central coas</span>
-                </div> 
-               </div>
-
-            </div>            
+                             </div>            
         	<div class="row clearfix">            	
                 <!--Image Column-->
                 <div class="image-column col-md-6 col-sm-12 col-xs-12">

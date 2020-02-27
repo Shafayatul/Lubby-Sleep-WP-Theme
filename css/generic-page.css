@@ -59,4 +59,8 @@ body {
   vertical-align: middle;
   max-width: 100%;
 }
-  
+
+.dynamic-content ul,
+.dynamic-content ol {
+  margin-left: 60px;
+}

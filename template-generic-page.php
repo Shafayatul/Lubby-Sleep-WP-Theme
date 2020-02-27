@@ -17,7 +17,7 @@ include(TEMPLATEPATH.'/header-generic.php');?>
        <div  class="section">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 dynamic-content">
               
 
                 <?php the_content(); ?>

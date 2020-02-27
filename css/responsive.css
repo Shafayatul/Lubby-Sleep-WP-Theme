@@ -357,7 +357,10 @@ width: 100% !important;
   .icon-box {
     margin-bottom: 2%;
 }
-
+.dynamic-content ul,
+.dynamic-content ol {
+  margin-left: 30px;
+}
 }
 @media (min-width: 360px) and (max-width: 480px) {
 .appointment-div {   
@@ -554,6 +557,11 @@ width: 100% !important;
   margin-bottom: 2%;
 }
 
+/* By Saiful */
+.dynamic-content ul,
+.dynamic-content ol {
+  margin-left: 20px;
+}
 
 
 }

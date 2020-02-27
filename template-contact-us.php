@@ -2,10 +2,11 @@
 include(TEMPLATEPATH.'/header-generic.php');?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/contact.css">
 
+
 <!-- banner -->
 <!-- banner1 -->
 	<div class="banner1 jarallax" style="
-	min-height: 90vh;
+	min-height: 10vh;
     background: url(<?PHP ECHO get_the_post_thumbnail_url();?>) no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -22,10 +23,6 @@ include(TEMPLATEPATH.'/header-generic.php');?>
 
 	<div class="services-breadcrumb text-center">
 		<div class="container">
-			<ul>
-				<li><a href="<?php echo home_url();?>">Home</a><i>|</i></li>
-				<li>Contact</li>
-			</ul>
 		</div>
 	</div>
 <!-- //banner1 -->
@@ -64,7 +61,7 @@ include(TEMPLATEPATH.'/header-generic.php');?>
 						<i class="fas fa-fax mr-2"></i>
 						<div class="con-w3l-info">
 						  <h4>Fax Us</h4>
-						  <p>430<span>20620</span></p></div>
+						  <p><span>(02) 4302 0620</span></p></div>
 						  <div class="clearfix"></div>
 					</a>
 				</div>

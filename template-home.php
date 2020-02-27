@@ -171,7 +171,7 @@ include(TEMPLATEPATH.'/header-home-custom.php');?>
 			              <div class="over-effect">
 			                 <h2>SNORING</h2>			                
 							<p>
-							 <a href="#">LINK HERE</a>
+							 <a href="snoring">CLICK HERE</a>
 							</p>
 	                      </div>
 	                    </div>
@@ -183,7 +183,7 @@ include(TEMPLATEPATH.'/header-home-custom.php');?>
 			              <div class="over-effect">
 			                <h2>INSOMNIA</h2>
 							<p>
-							  <a href="#">LINK HERE</a>
+							  <a href="insomnia">CLICK HERE</a>
 							</p>
 	                       </div>
 	                    </div>
@@ -195,7 +195,7 @@ include(TEMPLATEPATH.'/header-home-custom.php');?>
 			              <div class="over-effect">
 			                <h2>SLEEP APNEA</h2>
 							<p>
-							 <a href="#">LINK HERE</a>
+							 <a href="sleep-apnea">CLICK HERE</a>
 							</p>
 	                       </div>
 	                    </div>
@@ -207,7 +207,7 @@ include(TEMPLATEPATH.'/header-home-custom.php');?>
 			              <div class="over-effect">
 			                <h2>MEET THE TEAM</h2>
 							<p>
-							<a href="#">LINK HERE</a>
+							<a href="our-team">CLICK HERE</a>
 							</p>
 	                       </div>
 	                    </div>
@@ -219,7 +219,7 @@ include(TEMPLATEPATH.'/header-home-custom.php');?>
 			              <div class="over-effect">
 			                <h2>CPAP & APAP</h2>
 							<p>
-							<a href="#">LINK HERE</a>
+							<a href="cpap-services">CLICK HERE</a>
 							</p>
 	                       </div>
 	                    </div>
@@ -231,7 +231,7 @@ include(TEMPLATEPATH.'/header-home-custom.php');?>
 			              <div class="over-effect">
 			                <h2>DENTAL DEVICES</h2>
 							<p>
-							<a href="#">LINK HERE</a>
+							<a href="mas-dental-device">CLICK HERE</a>
 							</p>
 	                       </div>
 	                    </div>
@@ -243,7 +243,7 @@ include(TEMPLATEPATH.'/header-home-custom.php');?>
 			              <div class="over-effect">
 			                <h2>ONLINE CONSULTS</h2>
 							<p>
-							<a href="#">LINK HERE</a>
+							<a href="sleep-physician-consults">CLICK HERE</a>
 							</p>
 	                       </div>
 	                    </div>
@@ -255,7 +255,7 @@ include(TEMPLATEPATH.'/header-home-custom.php');?>
 			              <div class="over-effect">
 			                <h2>PRODUCTS</h2>
 							<p>
-							<a href="#">LINK HERE</a>
+							<a href="#">CLICK HERE</a>
 							</p>
 	                       </div>
 	                    </div>
@@ -385,7 +385,7 @@ include(TEMPLATEPATH.'/header-home-custom.php');?>
 					</li>
 				</ul>
 				<h4 class="text-center">No need to travel</h4>
-				<p class="text-center">We talk to each other using your computer, tablet or phone for almost everything including Doctor consults. This can be done from your home or office when it is convenient for you</p>
+				<p class="text-center">We can talk to each other using your computer, tablet or phone for almost everything including Doctor consults. This can be done from your home or office when it is convenient for you</p>
 			</div>
 			<div class="col-lg-12 col-md-12 col-sm-6 serv-wthree5 serv-wthree" data-aos="zoom-in">
 				<ul class="ch-grid">
