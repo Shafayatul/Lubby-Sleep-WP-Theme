@@ -49,33 +49,4 @@ include(TEMPLATEPATH.'/header-generic.php');?>
   <h3><?php _e('404 Error&#58; Not Found'); ?></h3>
 
 <?php endif; ?>
-   <div class="rightside-sticky-items dextop-view text-center">
-        <ul>
-            <li>
-                <a href="#">
-                    <div class="icon-box">
-                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons2.png"> 
-                    </div>
-                   <span>Book a Sleep Test</span>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <div class="icon-box">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/askquestion-min.png">
-                    </div>
-                    <span>Ask a Question</span>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <div class="icon-box">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/app.png"> 
-                    </div>
-                    <span>Make an Appointment</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-
 <?php include(TEMPLATEPATH.'/footer-custom.php');?>

@@ -2,7 +2,7 @@
     <div class="rightside-sticky-items dextop-view text-center">
         <ul>
             <li>
-                <a href="#">
+                <a href="<?php echo site_url('/book-a-sleep-test');?>">
                     <div class="icon-box">
                          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons2.png">	
                     </div>
@@ -10,7 +10,7 @@
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="<?php echo site_url('/contact-us');?>">
                     <div class="icon-box">
                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/askquestion-min.png">
                     </div>
@@ -18,7 +18,7 @@
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="<?php echo site_url('/book-appointment');?>">
                     <div class="icon-box">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/app.png">	
                     </div>
@@ -79,7 +79,7 @@
 		                <p class="text-muted mb-4">Lullaby Sleep P/L, COM2, Erina Fair Shopping Centre, Terrigal Drive, Erina NSW Australia 2250 </p>
 		                <ul class="list-inline mt-4">
 		                  <li class="list-inline-item facebook"><a href="https://www.facebook.com/LullabySleepAu/" title="facebook"><i  class="fab fa-2x fa-facebook-f"></i></a></li>
-		                   <li class="list-inline-item linkdin"><a href="" title="linkdIn"><i class="fab fa-linkedin-in"></i></a></li>	
+		                   <li class="list-inline-item pinterest"><a href="https://www.instagram.com/lullabysleepclinic/" title="instagram"><i class="fab fa-instagram icon-instagram fa-2x " aria-hidden="true"></i></a></li>	
 		                </ul>
 		            </div>
 		        </div>
